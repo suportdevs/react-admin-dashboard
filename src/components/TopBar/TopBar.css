@@ -4,8 +4,8 @@
     top: 0;
     background-color: #fff;
     padding: 0 10px;
-    box-shadow: 0px 2px 10px #c3c3c3;
-    -webkit-box-shadow: 0px 2px 10px #c3c3c3;
+    box-shadow: 0px 2px 10px gainsboro;
+    -webkit-box-shadow: 0px 2px 10px gainsboro;
 }
 .topbarWrapper {
     width: 100%;
