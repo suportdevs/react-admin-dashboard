@@ -10,38 +10,17 @@
     color: #525252;
     margin-bottom: 30px;
 }
-.newUserImg {
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.userEidtRightAvatarlabel {
-    position: relative;
-}
-.newUserAvatarMask {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 60px;
-    height: 60px;
-    background: #80808052;
-    margin-top: -44px;
-    border-radius: 10px;
-    text-align: center;
-    justify-content: center;
+.newUserForm{
     display: flex;
-    align-items: center;
-    color: #fff;
-    cursor: pointer;
+    flex-wrap: wrap;
 }
 .newUserItem {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #525252;
-    width: 48%;
-    margin-right: 2%;
+    width: 45%;
+    margin-right: 5%;
 }
 
 .newUserAvatar {
@@ -66,6 +45,15 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.newUserInputGroup {
+    display: flex;
+    align-items: center;
+}
+.newUserInputGroup input {
+    margin: 0 10px;
+}
 .newUserItem:last-child{
     display: block;
+    text-align: center;
+    width: 100%;
 }
