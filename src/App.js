@@ -1,13 +1,13 @@
 import './App.css';
 import Layout from './components/Layout/Layout';
-import Sidebar from './components/Sidebar/Sidebar';
-import TopBar from './components/TopBar/TopBar';
-import UserList from './components/UserList/UserList';
+import UserList from './pages/UserList/UserList';
 import Home from './pages/Home/Home';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import UserEdit from './pages/UserEdit/UserEdit';
+import NewUser from './pages/NewUser/NewUser';
 
 
 function App() {
@@ -23,6 +23,14 @@ function App() {
         {
           path: '/users',
           element: <UserList />,
+        },
+        {
+          path: '/newUser',
+          element: <NewUser />,
+        },
+        {
+          path: '/user/:userId',
+          element: <UserEdit />,
         },
       ]
     },

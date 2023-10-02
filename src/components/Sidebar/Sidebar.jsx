@@ -1,5 +1,6 @@
 import { AttachMoneyOutlined, BarChartOutlined, ChatBubbleOutlineOutlined, Home, MailOutlined, ManageAccountsOutlined, PersonOutline, RecyclingOutlined, Settings, Storefront, Timeline, TrendingUp } from "@mui/icons-material";
 import "./Sidebar.css";
+import { Link } from "react-router-dom";
 
 export default function Sidebar(){
     return (
@@ -23,10 +24,14 @@ export default function Sidebar(){
                     <h2 className="sidebarTitle">Quick Menu</h2>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <PersonOutline className="listItemIcon" /> Users
+                            <Link className="siderListLink" to="/users">
+                                <PersonOutline className="listItemIcon" /> Users
+                            </Link>
                         </li>
                         <li className="sidebarListItem">
+                            <Link className="siderListLink" to="products">
                             <Storefront className="listItemIcon" /> Products
+                            </Link>
                         </li>
                         <li className="sidebarListItem">
                             <AttachMoneyOutlined className="listItemIcon" /> Transactions

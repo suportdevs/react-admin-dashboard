@@ -37,3 +37,7 @@
 .sidebarListItem.active, .sidebarListItem:hover{
     background-color: rgb(228, 242, 253)
 }
+.siderListLink{
+    text-decoration: none;
+    color: inherit;
+}

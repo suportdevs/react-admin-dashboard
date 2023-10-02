@@ -24,7 +24,8 @@ img.userListUserImg {
     margin-right: 10px;
 }
 .userListIcon{
-    font-size: 15px;
+    font-size: 20px;
+    cursor: pointer;
 }
 .userListIcon.edit{
     color: green;
