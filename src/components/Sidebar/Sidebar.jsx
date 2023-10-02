@@ -10,7 +10,9 @@ export default function Sidebar(){
                     <h2 className="sidebarTitle">Dashboard</h2>
                     <ul className="sidebarList">
                         <li className="sidebarListItem active">
+                            <Link className="siderListLink" to="/">
                             <Home className="listItemIcon" /> Home
+                            </Link>
                         </li>
                         <li className="sidebarListItem">
                             <Timeline className="listItemIcon" /> Analytics

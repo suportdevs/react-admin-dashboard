@@ -5,7 +5,8 @@
     flex: 1;
     margin: 20px;
     border-radius: 5px;
-    box-shadow: 0px 20px 10px gainsboro;
+    box-shadow: 0px 0px 10px gainsboro;
+    -webkit-box-shadow: 0px 0px 10px gainsboro;
 }
 
 .userEditLeftTop {
@@ -15,7 +16,8 @@
     flex: 1;
     margin: 20px;
     border-radius: 5px;
-    box-shadow: 0px 20px 10px gainsboro;
+    box-shadow: 0px 0px 10px gainsboro;
+    -webkit-box-shadow: 0px 0px 10px gainsboro;
     padding: 20px;
 }
 
@@ -66,7 +68,8 @@
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 20px 10px gainsboro;
+    box-shadow: 0px 0px 10px gainsboro;
+    -webkit-box-shadow: 0px 0px 10px gainsboro;
 
 }
 .userEditRightImg {

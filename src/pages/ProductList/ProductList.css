@@ -1,22 +1,22 @@
-.userList{
+.productList{
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 2px 10px gainsboro;
-    -webkit-box-shadow: 0px 2px 10px gainsboro;
+    box-shadow: 0px 0px 10px gainsboro;
+    -webkit-box-shadow: 0px 0px 10px gainsboro;
     margin: 20px;
 
 }
-.userListTop{
+.productListTop{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
-.userListTitle{
+.productListTitle{
     color: #525252;
 }
-.userCreateBtn {
+.productListCreateBtn {
     border: none;
     padding: 7px 10px;
     border-radius: 5px;
@@ -24,25 +24,25 @@
     color: #fff;
     cursor: pointer;
 }
-.userListUser {
+.productListProduct {
     display: flex;
     align-items: center;
 }
 
-img.userListUserImg {
+.productListProductImg {
     width: 32px;
     height: 32px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
 }
-.userListIcon{
+.productListIcon{
     font-size: 20px;
     cursor: pointer;
 }
-.userListIcon.edit{
+.productListIcon.edit{
     color: green;
 }
-.userListIcon.delete{
+.productListIcon.delete{
     color: tomato;
 }

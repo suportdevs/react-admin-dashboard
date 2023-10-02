@@ -28,7 +28,7 @@ export default function UserList(){
     { field: 'actions', headerName: 'Actions', width: 130, renderCell: (params) => {
         return (
             <div className="userTableAction">
-                <Link to={"user/edit/" + params.row.id}>
+                <Link to={"/user/" + params.row.id}>
                 <EditNote className="userListIcon edit" />
                 </Link>
                 <DeleteOutline className="userListIcon delete" onClick={() => handleUserDelete(params.row.id)} />
@@ -38,7 +38,12 @@ export default function UserList(){
     ];
     return (
         <div className="userList">
-            <h3 className="userListTitle">User List</h3>
+            <div className="userListTop">
+                <h3 className="userListTitle">User List</h3>
+                <Link to="/newUser">
+                    <button className="userCreateBtn">Create</button>
+                </Link>
+            </div>
             <div className="userListContent">
             <DataGrid
                 rows={users}
